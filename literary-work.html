@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+<!-- Assignment - Îmbunătăţirea mini site-ului HTML -->
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mihajlo Idvorski Pupin - Literary work</title>
+   		<meta name="description" content="HTML and CSS Final Assignment">
+		<meta name="keywords" content="HTML, CSS, Assignment, Python">
+    	<meta name="author" content="Andrei Dobre">
+    <!--link href="style-literry_work.css" type="text/css" rel="stylesheet"-->
+    <style>
+        body {
+            font-family: Verdana;
+            width: auto;
+            text-align: center;
+            margin: 50px auto;
+            display: inline;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            table-layout: auto;
+
+        }
+
+        th{
+            width: 25%;
+            text-align: right;
+            padding: 50px 0 0 0;
+        }
+    
+        td{
+            width: 75%;
+        }
+        
+        #intern {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #intern td, #intern th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #intern tr:nth-child(even){background-color: #f2f2f2;}
+
+        #intern tr:hover {background-color: #ddd;}
+
+        #intern th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #00635a;
+            color: white;
+        }
+
+        menu {
+            line-height: 200%;
+            padding: 0 20px 0 0;
+            font-family: "Verdana", Helvetica, sans-serif;
+            width: 300px;
+            border: 2px solid #009171;
+            position:absolute;
+            left:50px;
+            top:200px;
+            background-color:rgb(213, 219, 211);
+        }
+        
+        figure {
+            display: inline-block;
+            float: left;
+            padding: 0 0 0 20px;
+        }
+
+        h2 {
+            display: block;
+            text-align: center;
+            color:#00635a;
+            font-family: "Verdana", Helvetica, sans-serif;
+            font-size: 24px;
+            font-style: italic;
+            font-weight: bold;
+            margin-bottom: 50px;
+        }
+
+        p {
+            width: 70%;
+            text-align: justify;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 30px;
+
+        }
+
+        footer {
+            font-size: 10px;
+            position: fixed;
+            bottom:5px;
+            width: 15%;
+            left:0px;
+            height:15px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>
+                <menu>
+                    <a href="index.html">Main Page</a><br>
+                    <a href="literary-work.html">Literary Work</a><br>
+                    <a href="early-life.html">Early life and education</a><br>
+                    <a href="pupin-coils.html">Pupin coils</a><br>
+                </menu>
+            </th>
+
+            <td>
+                <h2>Literary work</h2>
+
+                <section>
+                    <p>Besides his patents he published several dozen scientific disputes, articles, reviews and a 396-page autobiography under the name Michael Pupin, From Immigrant to Inventor (Scribner's, 1923). He won the annual Pulitzer Prize for Biography or Autobiography. It was published in Serbian in 1929 under the title From pastures to scientist (Od pašnjaka do naučenjaka).</p>
+                    <p>Beside this he also published:</p>
+                </section>
+            
+                <table id="intern">
+                    <tr id="heading">
+                        <th>Title</th>
+                        <th>Edited by</th>
+                        <th>City</th>
+                        <th>Year</th>
+                    </tr>
+            
+                    <tr class="even">
+                        <td>Pupin Michael: Der Osmotische Druch und seine Beziehung zur Freien Energie, Inaugural Dissertation zur Erlangung der Doctorwurde</td>
+                        <td>Buchdruckerei von Gustav Shade</td>
+                        <td>Berlin</td>
+                        <td>June, 1889</td>
+                    </tr>
+            
+                    <tr class="even">
+                        <td>Pupin Michael: Thermodynamics of Reversible Cycles in Gases and Saturated Vapors</td>
+                        <td>John Wiley & Sons</td>
+                        <td>New York</td>
+                        <td>1894</td>
+                    </tr>
+            
+                    <tr class="even">
+                        <td>Pupin Michael: Serbian Orthodox Church</td>
+                        <td>J. Murray</td>
+                        <td>London</td>
+                        <td>1918</td>
+                    </tr>
+            
+                    <tr class="even">
+                        <td>Pupin Michael: Yugoslavia. (In Association for International Conciliation Amer. Branch —Yugoslavia)</td>
+                        <td>American Association for International Conciliation</td>
+                        <td></td>
+                        <td>1919</td>
+                    </tr>
+            
+                    <tr class="even">
+                        <td>Pupin Michael: The New Reformation; from Physical to Spiritual Realities</td>
+                        <td>Scribner</td>
+                        <td>New York</td>
+                        <td>1927</td>
+                    </tr>
+            
+                    <tr class="even">
+                        <td>Pupin Michael: Romance of the Machine</td>
+                        <td>Scribner</td>
+                        <td>New York</td>
+                        <td>1930</td>
+                    </tr>
+            
+                    <tr class="even">
+                        <td>Pupin Michael: Discussion by M. Pupin and other prominent engineers in “Toward Civilization</td>
+                        <td>C. A. Beard. Longmans, Green& Co</td>
+                        <td>New York</td>
+                        <td>1930</td>
+                    </tr>
+                </table>
+            
+            </td>
+        </tr>
+        
+        <footer>
+            Andrei Dobre 2021 &copy; Link Academy 
+        </footer>
+
+    </table>
+    
+</body>
+</html>

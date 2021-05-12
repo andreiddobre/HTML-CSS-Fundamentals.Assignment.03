@@ -1,0 +1,76 @@
+<style>
+
+    body {
+        font-family: Verdana;
+        width: auto;
+        text-align: center;
+        margin: 50px auto;
+        display: inline;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        table-layout: auto;
+
+    }
+
+    th {
+        width: 25%;
+        text-align: right;
+        padding: 50px 0 0 0;
+    }
+
+    td {
+        margin-left: auto;
+        margin-right: auto;        
+    }
+
+    menu {
+        line-height: 200%;
+        padding: 0 20px 0 0;
+        font-family: "Verdana", Helvetica, sans-serif;
+        width: 300px;
+        border: 2px solid #009171;
+        position:absolute;
+        left:50px;
+        top:200px;
+        background-color:rgb(213, 219, 211);
+    }
+        
+    figure {
+        display: inline-block;
+        float: left;
+        padding: 0 0 0 100px;
+    }
+
+    h2 {
+        display: block;
+        text-align: center;
+        color:#00635a;
+        font-family: "Verdana", Helvetica, sans-serif;
+        font-size: 24px;
+        font-style: italic;
+        font-weight: bold;
+        margin-bottom: 50px;
+    }
+
+    p {
+        width: 70%;
+        text-align: justify;
+        padding: 20px 100px 0 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+		
+    footer {
+        font-size: 10px;
+        font-family: Verdana;
+        position: fixed;
+        bottom:5px;
+        width: 15%;
+        left:12px;
+        height:15px;
+    }
+
+</style>
